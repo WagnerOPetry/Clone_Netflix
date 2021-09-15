@@ -14,21 +14,21 @@
 
 body {
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
 header .logo {
     color: var(--vermelho);
-    font-family: 'arial black', Times;
+    font-family: 'Arial Black', sans-serif;
     font-size: 40px;
-    margin-left: 5px
+    margin-left: 5px;
 }
 
 header nav a {
     text-decoration: none;
     color: #aaa;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header nav a:hover {
@@ -48,7 +48,7 @@ header .container {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/picture2.jpg');
-    height: 400px;
+    height: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -73,9 +73,11 @@ header .container {
     color: #fff;
     padding: 15px 30px;
     margin-right: 15px;
+    margin-bottom: 10px;
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    border-radius: 10px;
 }
 
 .botao:hover {
@@ -92,7 +94,16 @@ header .container {
 }
 
 .box-filme {
-    height: 1000%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 8px;
+}
+
+.lancamentos {
+    margin-top: 10px;
+    margin-left: 20px;
 }
